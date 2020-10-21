@@ -6,7 +6,6 @@ const { Server } = require('http');
 const { type } = require('os');
 const { join } = require('path');
 const { measureMemory } = require('vm');
-const token = ''
 client.commands = new Discord.Collection();
 client.once('ready', () => {
     console.log('A Bot Online!');
